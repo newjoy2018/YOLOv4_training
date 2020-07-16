@@ -53,7 +53,6 @@ def convert_annotation(image_add):
 
     else:
         print("Error! xml need size:  "+image_add)
-        #os.remove("G:/set/"+image_add+".jpg")
         os.remove("/home/niuzhuo/YOLOv4/darknet/KITMoMa/xml/"+image_add+".xml")
 
 out_file = open('/home/niuzhuo/YOLOv4/yolov4-tflite/data/KITMoMa/tfLabel/train.txt', 'w')
